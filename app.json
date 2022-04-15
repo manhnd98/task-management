@@ -3,6 +3,7 @@
     "name": "task-management",
     "slug": "task-management",
     "version": "1.0.0",
+    "owner": "manhnd98",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -19,13 +20,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.manhnd98.taskmanagement"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.manhnd98.taskmanagement"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
